@@ -7,7 +7,7 @@ int calculate() {
 }
 
 void readFile() {
-  var path = '/Users/baqir/Sites/flutter-session-assignments/assignment_1/lib/file.txt';
+  var path = 'file.txt';
   var count = 1;
   File(path)
     .openRead()
